@@ -1,0 +1,4 @@
+﻿  LR2_0.cpp
+C:\Users\Al Maz\source\repos\3 kurs\InfoSecurity\LR2_0\LR2_0\LR2_0.cpp(15,27): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Al Maz\source\repos\3 kurs\InfoSecurity\LR2_0\LR2_0\LR2_0.cpp(8,31): warning C4101: tmp: неиспользованная локальная переменная
+  LR2_0.vcxproj -> C:\Users\Al Maz\source\repos\3 kurs\InfoSecurity\LR2_0\Debug\LR2_0.exe
