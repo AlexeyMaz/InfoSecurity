@@ -1,0 +1,6 @@
+﻿  LR3_2.cpp
+C:\Users\Al Maz\source\repos\3 kurs\InfoSecurity\LR3_2\LR3_2\LR3_2.cpp(7,13): warning C4326: возвращаемый тип "main" должен быть "int", а не "void"
+C:\Users\Al Maz\source\repos\3 kurs\InfoSecurity\LR3_2\LR3_2\LR3_2.cpp(14,20): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Al Maz\source\repos\3 kurs\InfoSecurity\LR3_2\LR3_2\LR3_2.cpp(16,21): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Al Maz\source\repos\3 kurs\InfoSecurity\LR3_2\LR3_2\LR3_2.cpp(37,20): warning C4018: <: несоответствие типов со знаком и без знака
+  LR3_2.vcxproj -> C:\Users\Al Maz\source\repos\3 kurs\InfoSecurity\LR3_2\Debug\LR3_2.exe
