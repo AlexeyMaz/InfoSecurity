@@ -1,0 +1,6 @@
+﻿  LR6_2.cpp
+C:\Users\Al Maz\source\repos\3 kurs\InfoSecurity\LR6_2\LR6_2\LR6_2.cpp(80,1): warning C4326: возвращаемый тип "main" должен быть "int", а не "void"
+C:\Users\Al Maz\source\repos\3 kurs\InfoSecurity\LR6_2\LR6_2\LR6_2.cpp(140,20): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Al Maz\source\repos\3 kurs\InfoSecurity\LR6_2\LR6_2\LR6_2.cpp(145,21): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Al Maz\source\repos\3 kurs\InfoSecurity\LR6_2\LR6_2\LR6_2.cpp(20): warning C4715: RW_gen: значение возвращается не при всех путях выполнения
+  LR6_2.vcxproj -> C:\Users\Al Maz\source\repos\3 kurs\InfoSecurity\LR6_2\Debug\LR6_2.exe
