@@ -1,43 +1,75 @@
 ﻿#include <iostream>
 #include <fstream>
 #include <vector>
-#include <string>
 using namespace std;
+
+//дан гамильтонов граф - граф,содержащий гамильтонов цикл - цикл,который проходит через все вершины графа,причём один раз
+//минимальное количество сирен в наборе, удовлетворяющее условиям безопасности - количество компонент связности 
+
+vector<int> g[1000];  // вектор смежности
+bool used[1000];  // вектор помеченных вершин
+vector<int> comp;  // вектор компонент связности
+vector<int> d;  // вектор вершин
+int matr[1000][1000];
+
+//обход в глубину
+void dfs(int v)
+{
+	used[v] = true;
+	comp.push_back(v);
+	for (int i = 0; i < g[v].size(); ++i)
+	{
+		if (v == i)
+			continue;
+		int to = g[v][i];
+		if (!used[to] && abs(d[v] - matr[v][i]) >= 0)
+		{
+			if (d[v] < d[i] - d[v])
+				d[v] = d[i] - d[v];
+			dfs(to);
+		}
+	}
+}
+
+//поиск компонент связности
+int find_comps(int n)
+{
+	int ans = 0;
+	for (int i = 0; i < n; ++i)
+		if (!used[i])
+		{
+			comp.clear();
+			dfs(i);
+		}
+
+	ans = comp.size();
+	return ans;
+}
 
 int main()
 {
-    ifstream input("alarm.in.txt");
-    vector<int> d;
-    vector<vector<int>> corridors;
-    int res = 0, n = 0;
-    string s;
-    
-    getline(input, s);
-    for (int i = 0; i < s.size(); ++i) 
-    {
-        n += s[i] - 48;
-        n *= 10;
-    }
-    n /= 10;
+	ifstream input("alarm.in.txt");
+	ofstream output("alarm.out.txt");
+	int n = 0, a, b, c;
 
-    getline(input, s);
-    for (int i = 0; i < n * 2 - 1; ++i)
-        if (s[i] != ' ') 
-            d.push_back(s[i] - 48);
+	if (!input.eof())
+	{
+		input >> n;
+		for (int i = 0; i < n; i++)
+		{
+			input >> a;
+			d.push_back(a);
+		}
+	}
 
-    vector<int> tmp(3);
-    while (!input.eof())
-    {
-        copy_n(istream_iterator<int>(input), 3, tmp.begin());
-        corridors.push_back(tmp);
-    }
-    
-    for (int i = 0; i < corridors.size(); ++i) {
-        for (int j = 0; j < 3; ++j)
-            cout << corridors[i][j] << " ";
-        cout << endl;
-    }
-
-    ofstream output("alarm.out.txt");
-    output << res;
+	while (!input.eof())
+	{
+		input >> a;
+		input >> b;
+		input >> c;
+		g[a].push_back(b);
+		matr[a][b] = c;
+	}
+	input.close();
+	output << find_comps(n);
 }
