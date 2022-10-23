@@ -1,0 +1,21 @@
+﻿  LR8_1.cpp
+C:\Users\Al Maz\source\repos\3 kurs\InfoSecurity\LR8_1\LR8_1\LR8_1.cpp(23,9): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+C:\Users\Al Maz\source\repos\3 kurs\InfoSecurity\LR8_1\LR8_1\LR8_1.cpp(21,6): warning C4101: i: неиспользованная локальная переменная
+C:\Users\Al Maz\source\repos\3 kurs\InfoSecurity\LR8_1\LR8_1\LR8_1.cpp(45,20): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Al Maz\source\repos\3 kurs\InfoSecurity\LR8_1\LR8_1\LR8_1.cpp(52,20): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Al Maz\source\repos\3 kurs\InfoSecurity\LR8_1\LR8_1\LR8_1.cpp(59,20): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Al Maz\source\repos\3 kurs\InfoSecurity\LR8_1\LR8_1\LR8_1.cpp(70,21): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Al Maz\source\repos\3 kurs\InfoSecurity\LR8_1\LR8_1\LR8_1.cpp(95,21): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Al Maz\source\repos\3 kurs\InfoSecurity\LR8_1\LR8_1\LR8_1.cpp(121,20): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Al Maz\source\repos\3 kurs\InfoSecurity\LR8_1\LR8_1\LR8_1.cpp(129,20): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Al Maz\source\repos\3 kurs\InfoSecurity\LR8_1\LR8_1\LR8_1.cpp(142,20): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Al Maz\source\repos\3 kurs\InfoSecurity\LR8_1\LR8_1\LR8_1.cpp(151,36): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Al Maz\source\repos\3 kurs\InfoSecurity\LR8_1\LR8_1\LR8_1.cpp(153,33): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Al Maz\source\repos\3 kurs\InfoSecurity\LR8_1\LR8_1\LR8_1.cpp(166,36): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Al Maz\source\repos\3 kurs\InfoSecurity\LR8_1\LR8_1\LR8_1.cpp(169,33): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Al Maz\source\repos\3 kurs\InfoSecurity\LR8_1\LR8_1\LR8_1.cpp(218,20): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Al Maz\source\repos\3 kurs\InfoSecurity\LR8_1\LR8_1\LR8_1.cpp(240,20): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Al Maz\source\repos\3 kurs\InfoSecurity\LR8_1\LR8_1\LR8_1.cpp(246,20): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Al Maz\source\repos\3 kurs\InfoSecurity\LR8_1\LR8_1\LR8_1.cpp(254,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+C:\Users\Al Maz\source\repos\3 kurs\InfoSecurity\LR8_1\LR8_1\LR8_1.cpp(112): warning C4715: insert_index: значение возвращается не при всех путях выполнения
+  LR8_1.vcxproj -> C:\Users\Al Maz\source\repos\3 kurs\InfoSecurity\LR8_1\Debug\LR8_1.exe
