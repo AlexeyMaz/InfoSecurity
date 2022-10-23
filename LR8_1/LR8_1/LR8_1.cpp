@@ -253,9 +253,8 @@ int main()
 	setlocale(LC_ALL, "RUS");
 	srand(time(0));
 	int n, m;
-	//cout << "Введите число субъектов и объектов через пробел: ";
-	//cin >> n >> m;
-	n = 5, m = 3;
+	cout << "Введите число субъектов и объектов через пробел: ";
+	cin >> n >> m;
 	vector <Item> Items = vector <Item>();
 
 	cout << "генерация rw" << endl;
